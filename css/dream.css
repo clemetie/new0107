@@ -1,0 +1,141 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  height: 900px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(52, 114, 85);
+}
+.logo {
+  display: inline-block;
+  width: 300px;
+  height: 100px;
+  padding-top: 40px;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+nav {
+  width: 900px;
+  height: 100px;
+  float: right;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+nav li {
+  float: left;
+  margin-left: 100px;
+  padding: 15px;
+}
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+.main-top {
+  width: 100%;
+  height: 300px;
+}
+.main-bt {
+  width: 100%;
+  height: 400px;
+}
+.notice {
+  width: calc(100% / 2);
+  height: 400px;
+  float: left;
+  padding: 10px;
+}
+.notice .top {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #8a8a8a4a;
+}
+.notice .top li {
+  height: 60px;
+  float: left;
+  padding: 20px;
+  border: 1px solid #8a8a8a4a;
+  border-bottom: none;
+}
+.notice .top li:last-child {
+  -moz-border-left-colors: none;
+}
+.noticebox{
+    background-color: #ccc;
+}
+.noticebox a{
+    color: red;
+}
+.notice .top li a {
+  text-decoration: none;
+}
+.notice .bt li {
+  margin: 20px;
+  padding: 5px;
+}
+.imgbox {
+  width: calc(100% / 2);
+  height: 100%;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+.imgbox img {
+  border-radius: 50%;
+}
+.imgbox .img1 {
+  margin-top: 60px;
+  padding: 20px;
+  float: left;
+  height: auto;
+}
+.imgbox .title {
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-top: 1px solid #8a8a8a4a ;
+}
+footer ul{
+    height: calc(100% / 2);
+}
+footer ul li{
+    float: left;
+    padding: 0 15px;
+margin-top: 10px;    
+border-right: 1px solid #8a8a8a4a ;
+}
+footer ul li a{
+    color: #333;
+}
+footer address{
+    color: #777;
+    height: calc(100% / 2);
+    float: left;
+    padding: 0 10px;
+    margin-top: 15px;
+}
+footer .logobox{
+    float: right;
+}
+footer .logobox li{
+    border-right: none;
+    padding: 0 5px;
+}
