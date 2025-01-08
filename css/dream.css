@@ -11,6 +11,7 @@ ol {
 .container {
   width: 1200px;
   height: 900px;
+  margin: 0 auto;
 }
 header {
   width: 100%;
@@ -37,7 +38,7 @@ nav {
 }
 nav li {
   float: left;
-  margin-left: 100px;
+  margin-left: 60px;
   padding: 15px;
 }
 nav li a {
@@ -73,11 +74,11 @@ nav li a {
 .notice .top li:last-child {
   -moz-border-left-colors: none;
 }
-.noticebox{
-    background-color: #ccc;
+.noticebox {
+  background-color: #ccc;
 }
-.noticebox a{
-    color: red;
+.noticebox a {
+  color: red;
 }
 .notice .top li a {
   text-decoration: none;
@@ -102,6 +103,11 @@ nav li a {
   float: left;
   height: auto;
 }
+
+.imgbox .img1 img:hover {
+  cursor: pointer;
+  filter:brightness(.5)
+}
 .imgbox .title {
   display: block;
   text-decoration: none;
@@ -111,31 +117,31 @@ footer {
   width: 100%;
   height: 100px;
   padding: 10px;
-  border-top: 1px solid #8a8a8a4a ;
+  border-top: 1px solid #8a8a8a4a;
 }
-footer ul{
-    height: calc(100% / 2);
+footer ul {
+  height: calc(100% / 2);
 }
-footer ul li{
-    float: left;
-    padding: 0 15px;
-margin-top: 10px;    
-border-right: 1px solid #8a8a8a4a ;
+footer ul li {
+  float: left;
+  padding: 0 15px;
+  margin-top: 10px;
+  border-right: 1px solid #8a8a8a4a;
 }
-footer ul li a{
-    color: #333;
+footer ul li a {
+  color: #333;
 }
-footer address{
-    color: #777;
-    height: calc(100% / 2);
-    float: left;
-    padding: 0 10px;
-    margin-top: 15px;
+footer address {
+  color: #777;
+  height: calc(100% / 2);
+  float: left;
+  padding: 0 10px;
+  margin-top: 15px;
 }
-footer .logobox{
-    float: right;
+footer .logobox {
+  float: right;
 }
-footer .logobox li{
-    border-right: none;
-    padding: 0 5px;
+footer .logobox li {
+  border-right: none;
+  padding: 0 5px;
 }
